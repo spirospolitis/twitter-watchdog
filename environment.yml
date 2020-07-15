@@ -1,0 +1,29 @@
+name: twitter-watchdog
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - pip:
+    - aiofiles
+    - argh
+    - chardet
+    - confluent-kafka
+    - idna
+    - numpy
+    - oauthlib
+    - pathtools
+    - pyarrow
+    - pymongo
+    - pysocks
+    - pywebhdfs
+    - pyyaml
+    - requests
+    - requests-oauthlib
+    - six
+    - tweepy
+    - urllib3
+    - watchdog
+    - yweather
+
+
