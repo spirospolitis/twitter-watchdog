@@ -69,9 +69,3 @@ python -m unittest discover
 ```bash
 python main.py -p <unix_process_name> -c <path_to_config>
 ```
-
-## Running (Docker container)
-
-```bash
-docker run --name twitter-watchdog -d twitter-watchdog:latest
-```
